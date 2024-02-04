@@ -1,5 +1,5 @@
 actual lesson = {
-    'name': '#010 - Entendendo Operadores Lógicos',
-    'link': 'https://youtu.be/q0xnilStu0I?si=q4hkW57gma9FIP5Y',
+    'name': '#011 - Entendendo Ambientes Virtuais',
+    'link': 'https://youtu.be/aB_stiR2UfU?si=FP7N1QSZgeFdMwS4',
     'course': 'Python',
 }
