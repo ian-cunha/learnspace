@@ -1,0 +1,17 @@
+
+Criar o ambiente = [
+    python -m venv venv
+]
+
+Rodar o ambiente = [
+    venv/scripts/activate
+]
+
+Criar o arquivo requirements = [
+    pip freeze,
+    pip freeze > requirements.txt
+]
+
+Baixar as dependencias do requirements = [
+    pip install -r requirements.txt
+]
