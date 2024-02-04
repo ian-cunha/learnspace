@@ -1,5 +1,5 @@
 actual lesson = {
-    'name': '#012 - Entendendo Funções em Python',
-    'link': 'https://youtu.be/8gTdqcXbbrw?si=1pmuO6MbYTR3oEtO',
+    'value': '#013 - Pandas e Excel com Python',
+    'link': 'https://youtu.be/NbTP6xMMeqc?si=Yk-tRdmsaLpeDYNF',
     'course': 'Python',
 }
