@@ -1,5 +1,5 @@
 actual lesson = {
-    'name': '#011 - Entendendo Ambientes Virtuais',
-    'link': 'https://youtu.be/aB_stiR2UfU?si=FP7N1QSZgeFdMwS4',
+    'name': '#012 - Entendendo Funções em Python',
+    'link': 'https://youtu.be/8gTdqcXbbrw?si=1pmuO6MbYTR3oEtO',
     'course': 'Python',
 }
