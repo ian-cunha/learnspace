@@ -4,6 +4,6 @@ lesson = {
 }
 
 lesson2 = {
-    'link' : 'https://www.cursoemvideo.com/curso/python-3-mundo-1/aulas/tratando-dados-e-fazendo-contas/modulos/exercicio-3-somando-dois-numeros/',
+    'link' : 'https://www.cursoemvideo.com/curso/python-3-mundo-1/aulas/tratando-dados-e-fazendo-contas/modulos/operadores-aritmeticos-2/',
     'course': 'Python'
 }
