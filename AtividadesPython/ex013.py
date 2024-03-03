@@ -2,7 +2,6 @@
 # Faça um algoritmo que leia o salário de um funcionário e mostre
 # seu novo salário, com 15% de aumento.
 
-sal_func = float(input('Salário do funcionario: R$'))
-aumento = sal_func * 0.15
-novo_sal = sal_func + aumento
-print('Salário atualizando: R${:.2f}'.format(novo_sal))
+salario = float(input('Salário do funcionario: R$'))
+aumento = salario + (salario * 15 / 100)
+print('Salário atual R${}, salário atualizado com 15% de aumento: R${:.2f}'.format(salario, aumento))

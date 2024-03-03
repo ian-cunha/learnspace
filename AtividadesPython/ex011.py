@@ -3,8 +3,9 @@
 # calcule a sua área e a quantidade de tinta necessário para pintá-la,
 # sabendo que cada litro de tinta, pinta uma área de 2m½ (2 metros quadrados).
 
-largura = int(input('Digite a largura em metros: '))
-altura = int(input('Digite a altura em metros: '))
+largura = int(input('Largura da parede: '))
+altura = int(input('Altura da parede: '))
 area = largura * altura
-litros = area / 2
-print('Quantidade de tinta necessário: {}l'.format(litros))
+tinta = area / 2
+print('Dimensão da parede de {}x{} e sua área e de {}m²'.format(largura, altura, area))
+print('Você precisa de {}l de tinta para pintar essa parede.'.format(tinta))
