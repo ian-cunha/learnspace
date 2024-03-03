@@ -4,5 +4,8 @@
 
 n = int(input('Tabuada de: '))
 tabuada = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print('-' * 12)
 for tab in tabuada:
-    print(n * tab)
+    print('{} x {:2} = {}'.format(n, tab, n * tab))
+print('-' * 12)

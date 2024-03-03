@@ -4,5 +4,5 @@
 # Considere US$1,00=R$3,27
 
 carteira = float(input('Digite o valor em reais para a conversão: R$'))
-conversao = carteira * 3.27
-print('${:.2f}'.format(conversao))
+conversao = carteira / 4.95
+print('US${:.2f}'.format(conversao))
