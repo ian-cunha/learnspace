@@ -5,3 +5,9 @@
 # dezena: 3
 # centena: 8
 # milhar: 1
+
+num = str(input('Digite um número entre 0 a 9999: '))
+print('Unidade: {}'.format(num))
+print('Dezena: {}'.format(num))
+print('Centena: {}'.format(num))
+print('Milhar: {}'.format(num))
