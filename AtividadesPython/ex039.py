@@ -7,6 +7,14 @@
 
 from datetime import date
 atual = date.today().year
+print('''Qual seu gênero? Escolha uma opção abaixo:
+[ 1 ] MASCULINO
+[ 2 ] FEMININO
+''')
+sexo = int(input('Sua opção: '))
+if sexo == 2:
+    print('Você não precisa fazer alistamento militar obrigatório.')
+    exit()
 nasc = int(input('Ano de nascimento: '))
 idade = atual - nasc
 print('Quen nasceu em {} tem {} anos em {}.'.format(nasc, idade, atual))
