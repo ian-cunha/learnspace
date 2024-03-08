@@ -5,16 +5,16 @@
 # -3 para hexadecimal
 
 num = int(input('Digite um número inteiro: '))
-print('Escolha uma das base para conversão:')
-print('[ 1 ] converter para BINÁRIO')
-print('[ 2 ] converter para OCTAL')
-print('[ 3 ] converter para HEXADECIMAL')
-base = int(input('Sua opção: '))
-if base == 1:
-    print('{} convertido em BINÁRIO é {}'.format(num, bin(num)))
-elif base == 2:
-    print('{} convertido em OCTAL é {}'.format(num ,oct(num)))
-elif base == 3:
-    print('{} convertido em HEXADECIMAL é {}'.format(num ,hex(num)))
+print('''Escolha uma das base para conversão: 
+[ 1 ] converter para BINÁRIO
+[ 2 ] converter para OCTAL
+[ 3 ] converter para HEXADECIMAL''')
+opcao = int(input('Sua opção: '))
+if opcao == 1:
+    print('{} convertido em BINÁRIO é {}'.format(num, bin(num)[2:]))
+elif opcao == 2:
+    print('{} convertido em OCTAL é {}'.format(num, oct(num)[2:]))
+elif opcao == 3:
+    print('{} convertido em HEXADECIMAL é {}'.format(num, hex(num)[2:]))
 else:
-    print('Tente novamente você escolheu uma base inexistente.')
+    print('Tente novamente, você escolheu uma opção inexistente.')
