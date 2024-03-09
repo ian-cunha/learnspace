@@ -3,3 +3,14 @@
 # - Média abaixo de 5.0: REPROVADO
 # - Média entre 5.0 e 6.9: RECUPERAÇÃO
 # - Média 7.0 ou superior: APROVADO
+
+nota1 = float(input('Primeira nota: '))
+nota2 = float(input('Segunda nota: '))
+media = (nota1 + nota2) / 2
+print('{:.1f} e {:.1f}, a média é {:.1f}'.format(nota1, nota2, media))
+if 7 > media >= 5:
+    print('Status: RECUPERAÇÃO.')
+elif media < 5:
+    print('Status: REPROVADO.')
+elif media >= 7:
+    print('Status: APROVADO.')
