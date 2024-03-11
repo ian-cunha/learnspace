@@ -5,7 +5,6 @@ from random import randint
 from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)
-print('O computador escolheu {}'.format(itens[computador]))
 print('''Suas opções:
 [ 0 ] Pedra
 [ 1 ] Papel
