@@ -3,7 +3,7 @@
 # Ex: 0 -> 1 -> 1 -> 2 -> 3 -> 5 -> 8
 
 print('-='*10, 'Sequência de Fibonacci', '=-'*10)
-seq = int(input('Quantos termos você mostrar? '))
+seq = int(input('Quantos termos você quer mostrar? '))
 cont = 3
 t1 = 0
 t2 = 1
