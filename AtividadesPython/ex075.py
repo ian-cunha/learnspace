@@ -4,21 +4,17 @@
 # B) Em que posição foi digitado o primeiro valo 3.
 # C) Quais foram os números pares.
 
-par = 0
-primeiro = int(input('Digite um número: '))
-segundo = int(input('Outro número: '))
-terceiro = int(input('Mais um número: '))
-quarto = int(input('O último número: '))
-valores = (primeiro, segundo, terceiro, quarto)
-if primeiro % 2 == 0:
-    par += 1
-if segundo % 2 == 0:
-    par += 1
-if terceiro % 2 == 0:
-    par += 1
-if quarto % 2 == 0:
-    par += 1
-print(f'Você digitou os valores {valores}')
-print(f'O valor 9 apareceu {valores.count(9)} vezes')
-print(f'O valor 3 apareceu na {valores.count(3)}ª posição')
-print(f'Os valores pares digitados foram {par}')
+num = (int(input('Digite um número: ')),
+        int(input('Digite outro número: ')),
+        int(input('Digite mais um número: ')),
+        int(input('Digite o último número: ')))
+print(f'Você digitou os valores {num}')
+print(f'O valor 9 apareceu {num.count(9)} vezes')
+if 3 in num:
+    print(f'O valor 3 apareceu na {num.index(3)+1}ª posição')
+else:
+    print('O valor 3 não foi digitado em nenhuma posição')
+print(f'Os valores pares digitados foram ', end='')
+for n in num:
+    if n % 2 == 0:
+        print(n, end=' ')
